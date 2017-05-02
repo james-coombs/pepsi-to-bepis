@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
 	"name": "Pepsi to bepis",
-	"description": "This extension replaces a pages instances of the text 'pepsi' with 'bepis'",
+	"description": "An extension to replace a page's instances of the text 'pepsi' with 'bepis'",
 	"version": "1.0",
 	"content_scripts": [
 	        {
@@ -17,10 +17,10 @@
 	"permissions": [
 		"storage"
 	],
-	"icons": { 
+	"icons": {
 		"16": "img/icon16.png",
 		"48": "img/icon48.png",
-		"128": "img/icon128.png" 
+		"128": "img/icon128.png"
 	},
 	"browser_action": {
 		"default_icon": {

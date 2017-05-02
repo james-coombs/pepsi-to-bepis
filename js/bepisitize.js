@@ -19,11 +19,11 @@ for (var i = 0; i < allElements.length; i++) {
     }
 }
 
-// for (var i = 0; i < imgElements.length; i++) {
-// 	var img = imgElements[i];
-// 	console.log('old src ' + img.src);
-// 	if (img.src != " ") {
-// 		img.src = 'ABSOLUTE PATH';
-// 	}
-// 	console.log('new src ' + img.src);
-// }
+for (var i = 0; i < imgElements.length; i++) {
+	var img = imgElements[i];
+	console.log('old src ' + img.src);
+	if (img.src != " ") {
+		img.src = 'https://www.shitpostbot.com/resize/1108/400?img=%2Fimg%2Fsourceimages%2Fbepis-logo-5831facbec829.jpeg';
+	}
+	console.log('new src ' + img.src);
+}
